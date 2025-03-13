@@ -1,31 +1,29 @@
-# 🔍 AdventureWorks SQL Data Analysis with Python  
 
-This project demonstrates how to **interact with an SQL Server database** (**AdventureWorks2022**) using **Python**.  
-The notebook includes **querying the database, analyzing the data, and visualizing the results** using various Python libraries.
+# My Digit Recognizer ✏️
 
----
-
-## ✨ Features  
-
-### 🔹 **SQL Database Queries**  
-✔️ Retrieve data from tables in the **AdventureWorks2022** database.  
-✔️ Perform **joins** and **aggregations** to extract meaningful insights.  
-
-### 🔹 **Data Analysis**  
-✔️ Analyze **employee headcount** by **department, gender, and location**.  
-✔️ Investigate **sales trends** and calculate key performance metrics.  
-
-### 🔹 **Data Visualization**  
-✔️ **Bar charts & pie charts** for **gender distribution, department analysis, and sales trends**.  
-✔️ **Confidence interval visualization** for sales revenue.  
+A Streamlit application that lets you draw digits directly in your browser and predicts the digit using a Convolutional Neural Network (CNN) trained on MNIST. This README provides an overview of the project’s features, setup instructions, and usage details.
 
 ---
 
-## 🛠 Technologies Used  
-- **SQL Server** - Database queries  
-- **Python** - Data analysis & visualization  
-- **Pandas** - Data manipulation  
-- **Matplotlib & Seaborn** - Data visualization  
-- **SQLAlchemy** - Database connection  
+## ✨ Features
+
+1. **Interactive Drawing Canvas**  
+   - Draw digits in real-time using Streamlit’s drawable canvas.  
+   - No need to upload separate images.
+
+2. **Instant Predictions**  
+   - The CNN model predicts the digit (0–9) immediately after you click **Predict**.  
+   - Displays a probability distribution for each possible digit.
+
+3. **MNIST CNN Model**  
+   - Uses a TensorFlow/Keras CNN trained on the MNIST dataset (28×28 grayscale images).  
+   - Includes layers such as Convolution, Pooling, Dropout, and Dense for robust performance.
+
+4. **Easy Integration**  
+   - Written in Python with a straightforward setup process.  
+   - Easily extend or modify the model for other digit-related tasks.
+
+
+
 
 
